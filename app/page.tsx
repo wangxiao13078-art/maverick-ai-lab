@@ -1,11 +1,11 @@
 import { CodeRain } from "@/components/ui/CodeRain";
 import { Hero } from "@/components/sections/Hero";
 import { WhyProgramming } from "@/components/sections/WhyProgramming";
+import { BuildYourAgent } from "@/components/sections/BuildYourAgent";
 import { TalentQuiz } from "@/components/sections/TalentQuiz";
 import { AlgorithmVisualizer } from "@/components/sections/AlgorithmVisualizer";
 import { CodingPlayground } from "@/components/sections/CodingPlayground";
 import { Competitions } from "@/components/sections/Competitions";
-import { CompetitionCalendar } from "@/components/sections/CompetitionCalendar";
 import { Courses } from "@/components/sections/Courses";
 import { SuccessStories } from "@/components/sections/SuccessStories";
 import { Teachers } from "@/components/sections/Teachers";
@@ -21,23 +21,23 @@ export default function Home() {
       {/* 首页 Hero */}
       <Hero />
       
-      {/* 为什么学编程 */}
+      {/* 为什么学 AI & Agent */}
       <WhyProgramming />
       
-      {/* 🆕 编程能力趣味测试 */}
+      {/* 🆕 构建你的专属 Agent */}
+      <BuildYourAgent />
+      
+      {/* AI 能力趣味测试 */}
       <TalentQuiz />
       
-      {/* 🆕 算法可视化演示 */}
+      {/* 模型训练可视化 */}
       <AlgorithmVisualizer />
       
-      {/* 🆕 在线编程挑战 */}
+      {/* 提示词互动挑战 */}
       <CodingPlayground />
       
-      {/* 竞赛介绍 */}
+      {/* Agent 应用场景 */}
       <Competitions />
-      
-      {/* 🆕 竞赛日历倒计时 */}
-      <CompetitionCalendar />
       
       {/* 课程体系 */}
       <Courses />

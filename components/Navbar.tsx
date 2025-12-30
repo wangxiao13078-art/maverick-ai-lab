@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const navItems = [
   { name: "首页", href: "#hero" },
-  { name: "实验室模块", href: "#competitions" },
+  { name: "构建 Agent", href: "#build-agent" },
   { name: "课程体系", href: "#courses" },
   { name: "成功案例", href: "#success" },
   { name: "师资团队", href: "#teachers" },
