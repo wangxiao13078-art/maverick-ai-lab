@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[28887,["/maverick-ai-lab/_next/static/chunks/03b32746d4a827ae.js","/maverick-ai-lab/_next/static/chunks/5e79dea93ec883df.js"],"default"]
+3:I[24045,["/maverick-ai-lab/_next/static/chunks/03b32746d4a827ae.js","/maverick-ai-lab/_next/static/chunks/5e79dea93ec883df.js"],"default"]
+0:{"buildId":"r4nN-dVMVn7keNoZ0SfmK","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
