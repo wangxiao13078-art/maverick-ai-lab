@@ -86,3 +86,4 @@ MIT License
 ---
 
 Made with ❤️ by Maverick AI Lab Team
+
