@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
@@ -14,12 +14,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#6366f1",
+};
+
 export const metadata: Metadata = {
   title: "Maverick AI Lab | AI & Agent 智能体实验室",
   description: "专注于青少年 AI 素养与 Agent 智能体架构教学。培养能够驾驭人工智能的下一代数字原住民，通过 PBL 项目式学习构建属于自己的 AI 作品。",
   keywords: "AI 实验室, Agent 智能体, 大语言模型, 提示词工程, 青少年 AI 教育, 深度学习, 逻辑思维",
   manifest: "/manifest.json",
-  themeColor: "#6366f1",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
